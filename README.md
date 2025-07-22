@@ -47,5 +47,27 @@ Each week targets specific skills and practical implementation.
 
 ---
 
+## 📂 Folder Structure
+
+```bash
+YoungDevInterns-Software-Testing-QA-Tasks/
+│
+├── Week-01-Manual-Testing/
+│   ├── TestCases/
+│   ├── BugReports/
+│   └── TestScenarios/
+│
+├── Week-02-Test-Management/
+│   ├── TestSuites/
+│   ├── Jira-Bugs/
+│   └── Design-Techniques/
+│
+├── Week-03-Automation/
+│   ├── Selenium/
+│   ├── Cypress/
+│   └── Postman/
+│
+└── README.md
+
 
 
