@@ -66,8 +66,7 @@ YoungDevInterns-Software-Testing-QA-Tasks/
 │   ├── Selenium/
 │   ├── Cypress/
 │   └── Postman/
-│
-└── README.md
+
 
 
 
