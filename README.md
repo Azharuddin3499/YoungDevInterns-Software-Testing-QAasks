@@ -60,7 +60,6 @@ YoungDevInterns-Software-Testing-QA-Tasks/
 ├── Week-02-Test-Management/
 │   ├── TestSuites/
 │   ├── Jira-Bugs/
-│   └── Design-Techniques/
 │
 ├── Week-03-Automation/
 │   ├── Selenium/
