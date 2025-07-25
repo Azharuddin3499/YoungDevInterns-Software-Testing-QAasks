@@ -62,9 +62,9 @@ YoungDevInterns-Software-Testing-QA-Tasks/
 │   ├── Jira-Bugs/
 │
 ├── Week-03-Automation/
-│   ├── Cypress script (login form)
-│   ├── Cypress/
-│   └── Postman/
+│   ├── Cypress script (login form)/
+│   ├── Automate a search and validation flow on a website (e.g., Flipkart/Amazon)./
+│   └── Test an API using Postman and validate JSON response/
 
 
 
