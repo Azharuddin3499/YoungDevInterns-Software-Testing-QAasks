@@ -62,7 +62,7 @@ YoungDevInterns-Software-Testing-QA-Tasks/
 │   ├── Jira-Bugs/
 │
 ├── Week-03-Automation/
-│   ├── Selenium/
+│   ├── Cypress script (login form)
 │   ├── Cypress/
 │   └── Postman/
 
