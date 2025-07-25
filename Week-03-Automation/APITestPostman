@@ -1,0 +1,36 @@
+pm.test("Response status code is 200", function () {
+    pm.expect(pm.response.code).to.eql(200);
+});
+
+
+pm.test("Response has required fields in the data object", function () {
+    const responseData = pm.response.json();
+    
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.data).to.exist;
+    pm.expect(responseData.data).to.have.all.keys('id', 'email', 'first_name', 'last_name', 'avatar');
+});
+
+
+pm.test("Validate that the 'support' object contains the required fields", function () {
+    const responseData = pm.response.json();
+    
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.support).to.exist;
+    pm.expect(responseData.support).to.have.all.keys('url', 'text');
+});
+
+
+pm.test("Email is in a valid format", function () {
+    const responseData = pm.response.json();
+    
+    pm.expect(responseData).to.be.an('object');
+    pm.expect(responseData.data).to.exist.and.to.be.an('object');
+    pm.expect(responseData.data.email).to.exist;
+    pm.expect(responseData.data.email).to.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/, "Email format is invalid");
+});
+
+
+pm.test("Response time is less than 200ms", function () {
+    pm.expect(pm.response.responseTime).to.be.below(200);
+});
